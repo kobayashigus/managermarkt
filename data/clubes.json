@@ -1,0 +1,45 @@
+[
+  {
+    "nome": "Fortaleza",
+    "dirigente": "John Textor",
+    "cargo": "Proprietário SAF",
+    "foto": "assets/dirigentes/textor.jpg",
+    "bio": "Empresário americano, focado em análise de dados e expansão global multiclube.",
+    "gasto_folha_anual": 80000000,
+    "receita_total": 120000000,
+    "pontos_conquistados": 55,
+    "investimento": 2000000,
+    "gols_marcados": 42,
+    "gols_sofridos": 58,
+    "pontos": 25
+  },
+  {
+    "nome": "Botafogo",
+    "dirigente": "John Textor",
+    "cargo": "Proprietário SAF",
+    "foto": "assets/dirigentes/textor.jpg",
+    "bio": "Empresário americano, focado em análise de dados e expansão global multiclube.",
+    "gasto_folha_anual": 150000000,
+    "receita_total": 200000000,
+    "pontos_conquistados": 68,
+    "gols_marcados": 58,
+    "gols_sofridos": 58,
+    "investimento": 2000000,
+    "pontos": 25
+  },
+  {
+    "nome": "São Paulo",
+    "dirigente": "John Textor",
+    "cargo": "Proprietário SAF",
+    "foto": "assets/dirigentes/textor.jpg",
+    "bio": "Empresário americano, focado em análise de dados e expansão global multiclube.",
+    "gasto_folha_anual": 150000000,
+    "receita_total": 200000000,
+    "pontos_conquistados": 68,
+    "gols_marcados": 58,
+    "gols_sofridos": 58,
+    "investimento": 2000000,
+    "pontos": 25
+  }
+
+]
