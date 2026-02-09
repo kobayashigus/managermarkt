@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managermarkt | Dashboard Dirigentes</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                cinzaOriginal: '#e9e9e9',
+                gray850: '#1f2937', // Um cinza um pouco mais claro para o hover
+              }
+            }
+          }
+        }
+    </script>
+</head>
+
+<body class="bg-gray-900 text-gray-100 font-sans">
+                    
+    <nav class="bg-cinzaOriginal p-5 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="assets/managermarkt.png" height="62" width="156" title="Managermarkt" alt="Managermarkt">
+            <span class="text-sm text-gray-600 font-bold uppercase tracking-wider">2026 Dirigentes</span>
+        </div>
+    </nav>
+
+    <main class="container mx-auto mt-10 px-4">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md">
+                <p class="text-gray-400 text-sm">Gasto Médio por Ponto</p>
+                <h2 class="text-3xl font-bold text-green-400" id="resumo-gasto">R$ 0.0M</h2>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md">
+                <p class="text-gray-400 text-sm">Eficiência Gols/Milhão</p>
+                <h2 class="text-3xl font-bold text-blue-400" id="resumo-gols">0.00</h2>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-md">
+                <p class="text-gray-400 text-sm">Média de Ganhos Totais</p>
+                <h2 class="text-3xl font-bold text-purple-400" id="resumo-ganhos">R$ 0M</h2>
+            </div>
+        </div>
+
+        <div class="flex space-x-4 mb-6 border-b border-gray-700">
+            <button onclick="switchTab('aba-clubes')" id="btn-clubes" class="py-2 px-6 text-blue-400 border-b-2 border-blue-400 font-bold transition-all">
+                Clubes
+            </button>
+            <button onclick="switchTab('aba-dirigentes')" id="btn-dirigentes" class="py-2 px-6 text-gray-400 hover:text-white transition-all font-bold">
+                Dirigentes
+            </button>
+        </div>
+
+        <section id="aba-clubes" class="block">
+            <div class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden shadow-xl">
+                <div class="p-6 border-b border-gray-700 flex justify-between items-center">
+                    <h3 class="text-xl font-semibold">Ranking de Performance Econômica</h3>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left">
+                        <thead class="bg-gray-700 text-gray-300 uppercase text-xs">
+                            <tr>
+                                <th class="px-6 py-4">Clube</th>
+                                <th class="px-6 py-4">Receita Anual</th>
+                                <th class="px-6 py-4">Gols Marcados</th>
+                                <th class="px-6 py-4 text-blue-400">Gasto/Ponto</th>
+                                <th class="px-6 py-4 text-green-400">Gols/Milhão</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-corpo" class="divide-y divide-gray-700">
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="aba-dirigentes" class="hidden">
+            <div id="cards-dirigentes" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="mt-20 p-10 text-center text-gray-500 text-sm border-t border-gray-800">
+        Desenvolvido por DDC &copy; 2026 | ManagerMarkt Intelligence
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
