@@ -1,4 +1,5 @@
 # 📊 ManagerMarkt
+<img width="3124" height="1119" alt="managermarkt" src="https://github.com/user-attachments/assets/dd040816-3bf4-46fc-bb78-8708a37aa658" />
 
 > Uma plataforma de análise de dirigentes de futebol, inspirada no Transfermarkt, com foco em gastos, decisões, acertos e erros na gestão esportiva.
 
