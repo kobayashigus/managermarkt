@@ -56,7 +56,7 @@ O stack tecnológico ainda está em definição, mas pode incluir:
 - **Banco de dados:** PostgreSQL / MySQL / MongoDB
 - **Frontend:** React / Next.js
 - **Dados:** APIs públicas, web scraping e datasets abertos
-- **Visualização:** Chart.js, D3.js ou similares
+- **Visualização:** Chart.js
 
 ---
 
