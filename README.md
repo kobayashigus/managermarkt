@@ -1,9 +1,9 @@
-# 📊 ManagerMarkt
+# ManagerMarkt
 <img width="3124" height="1119" alt="managermarkt" src="https://github.com/user-attachments/assets/dd040816-3bf4-46fc-bb78-8708a37aa658" />
 
 > Uma plataforma de análise de dirigentes de futebol, inspirada no Transfermarkt, com foco em gastos, decisões, acertos e erros na gestão esportiva.
 
-## 🎯 Visão Geral
+## Visão Geral
 
 O **ManagerMarkt** é um projeto que tem como objetivo analisar o impacto de dirigentes e gestores de clubes de futebol ao longo do tempo.  
 Enquanto plataformas tradicionais focam principalmente em jogadores, o ManagerMarkt busca responder perguntas como:
@@ -17,7 +17,7 @@ O projeto está em **fase inicial de desenvolvimento** e servirá como base para
 
 ---
 
-## 🚀 Objetivos do Projeto
+## Objetivos do Projeto
 
 - 📌 Centralizar dados sobre dirigentes e suas decisões
 - 💸 Analisar gastos em transferências e salários
@@ -27,7 +27,7 @@ O projeto está em **fase inicial de desenvolvimento** e servirá como base para
 
 ---
 
-## 🧩 Funcionalidades Planejadas
+## Funcionalidades Planejadas
 
 ### 📂 Dados de Dirigentes
 - Histórico de clubes
@@ -52,9 +52,9 @@ O projeto está em **fase inicial de desenvolvimento** e servirá como base para
 
 O stack tecnológico ainda está em definição, mas pode incluir:
 
-- **Backend:** Python (FastAPI / Django / Flask) ou Node.js
-- **Banco de dados:** PostgreSQL / MySQL / MongoDB
-- **Frontend:** React / Next.js
+- **Backend:** Python FastAPI ou Node.js
+- **Banco de dados:** PostgreSQL
+- **Frontend:** React
 - **Dados:** APIs públicas, web scraping e datasets abertos
 - **Visualização:** Chart.js
 
