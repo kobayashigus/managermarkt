@@ -52,7 +52,7 @@ O projeto está em **fase inicial de desenvolvimento** e servirá como base para
 
 O stack tecnológico ainda está em definição, mas pode incluir:
 
-- **Backend:** Python FastAPI ou Node.js
+- **Backend:** Python FastAPI
 - **Banco de dados:** PostgreSQL
 - **Frontend:** React
 - **Dados:** APIs públicas, web scraping e datasets abertos
